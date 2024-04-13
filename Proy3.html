@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentación Técnica</title>
+  <link rel="stylesheet" href="stylesP3.css">
+</head>
+<body>
+  <nav id="navbar">
+    <header>Documentación Técnica</header>
+    <ul>
+      <li><a class="nav-link" href="#JavaScript_y_Java">JavaScript y Java</a></li>
+      <li><a class="nav-link" href="#Python_y_C">Python y C</a></li>
+      <li><a class="nav-link" href="#HTML_y_CSS">HTML y CSS</a></li>
+      <li><a class="nav-link" href="#Bootstrap_y_React">Bootstrap y React</a></li>
+      <li><a class="nav-link" href="#Node.js_y_Express">Node.js y Express</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section id="JavaScript_y_Java" class="main-section">
+      <header>JavaScript y Java</header>
+      <p>JavaScript es un lenguaje de programación de alto nivel, ampliamente utilizado para agregar interactividad a las páginas web.</p>
+      <p>Java, por otro lado, es un lenguaje de programación de propósito general, conocido por su portabilidad y capacidad para ejecutarse en una variedad de dispositivos.</p>
+      <p>En esta sección, aprenderás sobre los conceptos básicos de ambos lenguajes, así como sus diferencias y similitudes.</p>
+      <h2>Recursos Adicionales</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">Documentación de JavaScript en MDN</a></li>
+        <li><a href="https://www.oracle.com/java/technologies/" target="_blank">Página oficial de Java</a></li>
+      </ul>
+      <code>// Ejemplo de código JavaScript
+function saludar() {
+  console.log("Hola, mundo!");
+}
+saludar();</code>
+    </section>
+    <section id="Python_y_C" class="main-section">
+      <header>Python y C</header>
+      <p>Python es un lenguaje de programación interpretado, conocido por su sintaxis clara y legible. Es ampliamente utilizado en campos como la ciencia de datos y el desarrollo web.</p>
+      <p>C, por otro lado, es un lenguaje de programación de bajo nivel, conocido por su eficiencia y control sobre el hardware.</p>
+      <p>En esta sección, exploraremos las características principales de Python y C, así como sus casos de uso y aplicaciones.</p>
+      <h2>Recursos Adicionales</h2>
+      <ul>
+        <li><a href="https://www.python.org/doc/" target="_blank">Documentación oficial de Python</a></li>
+        <li><a href="https://en.cppreference.com/w/c" target="_blank">Referencia de C en cppreference.com</a></li>
+      </ul>
+      <code>// Ejemplo de código Python
+def saludar():
+    print("Hola, mundo!")
+saludar()</code>
+    </section>
+    <section id="HTML_y_CSS" class="main-section">
+      <header>HTML y CSS</header>
+      <p>HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear y diseñar páginas web.</p>
+      <p>CSS (Cascading Style Sheets), por otro lado, se utiliza para aplicar estilos y diseñar el aspecto visual de las páginas web creadas con HTML.</p>
+      <p>En esta sección, aprenderás los fundamentos de HTML y CSS, así como técnicas avanzadas para diseñar páginas web atractivas y funcionales.</p>
+      <h2>Recursos Adicionales</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Documentación de HTML en MDN</a></li>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">Documentación de CSS en MDN</a></li>
+      </ul>
+      <code>
+/* Ejemplo de código CSS */
+body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: blue;
+}</code>
+    </section>
+    <section id="Bootstrap_y_React" class="main-section">
+      <header>Bootstrap y React</header>
+      <p>Bootstrap es un marco de diseño front-end popular, conocido por su facilidad de uso y gran cantidad de componentes predefinidos.</p>
+      <p>React, por otro lado, es una biblioteca de JavaScript de código abierto utilizada para construir interfaces de usuario interactivas y de una sola página.</p>
+      <p>En esta sección, exploraremos cómo usar Bootstrap y React para crear sitios web modernos y receptivos.</p>
+      <h2>Recursos Adicionales</h2>
+      <ul>
+        <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank">Documentación de Bootstrap</a></li>
+        <li><a href="https://es.reactjs.org/docs/getting-started.html" target="_blank">Documentación de React en español</a></li>
+      </ul>
+      <code>
+{/* Ejemplo de componente React */}
+import React from 'react';
+function MiComponente() {
+  return (
+    <div>
+      <h1>Hola, mundo!</h1>
+    </div>
+  );
+}
+export default MiComponente;</code>
+    </section>
+    <section id="Node.js_y_Express" class="main-section">
+      <header>Node.js y Express</header>
+      <p>Node.js es un entorno de ejecución de JavaScript del lado del servidor, conocido por su escalabilidad y eficiencia en el manejo de operaciones de entrada/salida.</p>
+      <p>Express es un marco de aplicación web para Node.js, diseñado para simplificar el desarrollo de aplicaciones web y APIs.</p>
+      <p>En esta sección, aprenderás a construir aplicaciones web con Node.js y Express, así como a implementar API RESTful.</p>
+      <h2>Recursos Adicionales</h2>
+      <ul>
+        <li><a href="https://nodejs.org/es/docs/" target="_blank">Documentación de Node.js en español</a></li>
+        <li><a href="https://expressjs.com/es/" target="_blank">Documentación de Express en español</a></li>
+      </ul>
+      <code>
+// Ejemplo de middleware en Express
+const express = require('express');
+const app = express();
+app.use((req, res, next) => {
+  console.log('Petición recibida:', req.method, req.url);
+  next();
+});</code>
+    </section>
+  </main>
+</body>
+</html>

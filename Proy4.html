@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Página del Producto</title>
+  <link rel="stylesheet" href="stylesP4.css">
+</head>
+<body>
+  <header id="header">
+    <img id="header-img" src="guitar.jfif" alt="Logo de la empresa">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#caracteristicas">Características</a>
+      <a class="nav-link" href="#precios">Precios</a>
+      <a class="nav-link" href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <div id="main-content">
+    <h1>Guitarras hechas a mano</h1>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <label for="email">Ingrese su dirección de correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="TuCorreo@ejemplo.com" required>
+      <input type="submit" id="submit" value="Enviar">
+    </form>
+
+    <video id="video" controls>
+      <source src="video.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de vídeo.
+    </video>
+  </div>
+
+  <section id="caracteristicas">
+  <h2>Características de nuestras guitarras</h2>
+  <ul>
+    <li>Guitarras hechas a mano con materiales de alta calidad.</li>
+    <li>Sonido excepcional y resonante gracias a la meticulosa construcción.</li>
+    <li>Diseños únicos y personalizados para cada cliente.</li>
+    <li>Variedad de estilos y acabados disponibles.</li>
+  </ul>
+</section>
+
+<section id="precios">
+  <h2>Nuestros precios</h2>
+  <p>Ofrecemos una amplia gama de guitarras a precios competitivos. Desde modelos básicos hasta ediciones limitadas, tenemos algo para todos los presupuestos.</p>
+  <p>Ponte en contacto con nosotros para obtener información sobre precios y disponibilidad.</p>
+</section>
+
+<section id="contacto">
+  <h2>¡Contáctanos!</h2>
+  <p>¿Interesado en nuestras guitarras hechas a mano? ¡Envíanos un mensaje y te responderemos lo antes posible!</p>
+  <form id="contact-form" action="#" method="post">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+</body>
+</html>
